@@ -1,13 +1,97 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
+    <link rel="stylesheet" href="src/style.css" /> 
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Formulario Gamer TSI</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+    <div class="container">
+      <header class="header">
+        <img src="src/img/pesquisagamer.png" alt="Logo Pesquisa Gamer">
+        <h1 id="title">Pesquisa</h1>
+        <p id="description">Responda o formulário para conhecermos seu perfil gamer</p>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Nome: </label>
+          <input id="name" type="text" placeholder="Digite seu nome completo" required>
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email: </label>
+          <input id="email" type="email" placeholder="Digite o seu email" required>
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Idade: </label>
+          <input id="number" type="number" min="10" max="100" placeholder="Idade">
+        </div>
+        <div class="form-group">
+          <label id="dropdown-label" for="dropdown">Qual sua plataforma de jogos preferida?</label>
+          <select id="dropdown" name="plataforma_preferida" class="form-control" required>
+            <option disabled selected value="">Selecione uma plataforma</option>
+            <option value="pc">PC (Computador)</option>
+            <option value="console_ps">Console (PlayStation)</option>
+            <option value="console_xbox">Console (Xbox)</option>
+            <option value="console_nintendo">Console (Nintendo Switch)</option>
+            <option value="mobile">Mobile (Celular/Tablet)</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+        <div class="form-group"> <p>Qual seu período preferido para jogar?</p>
+          <div>
+            <input type="radio" id="manha" name="periodo" value="manha">
+            <label for="manha">Manhã</label>
+          </div>
+          <div>
+            <input type="radio" id="tarde" name="periodo" value="tarde">
+            <label for="tarde">Tarde</label>
+          </div>
+          <div>
+            <input type="radio" id="noite" name="periodo" value="noite">
+            <label for="noite">Noite</label>
+          </div>
+          <div>
+            <input type="radio" id="madrugada" name="periodo" value="madrugada">
+            <label for="madrugada">Madrugada</label>
+          </div>
+        </div> <div class="form-group"> <p>Selecione abaixo as categorias de jogos que mais te agradam: </p>
+          <div>
+            <input type="checkbox" id="genre-acao" name="genre" value="acao">
+            <label for="genre-acao">Ação</label>
+          </div>
+          <div>
+            <input type="checkbox" id="genre-aventura" name="genre" value="aventura">
+            <label for="genre-aventura">Aventura</label>
+          </div>
+          <div>
+            <input type="checkbox" id="genre-fps" name="genre" value="fps">
+            <label for="genre-fps">FPS (Tiro em Primeira Pessoa)</label>
+          </div>
+          <div>
+            <input type="checkbox" id="genre-moba" name="genre" value="moba">
+            <label for="genre-moba">MOBA (Multiplayer Online Battle Arena)</label>
+          </div>
+          <div>
+            <input type="checkbox" id="genre-corrida" name="genre" value="corrida">
+            <label for="genre-corrida">Corrida</label>
+          </div>
+          <div>
+            <input type="checkbox" id="genre-cooperativos" name="genre" value="cooperativos">
+            <label for="genre-cooperativos">Jogos Cooperativos</label>
+          </div>
+          <div>
+            <input type="checkbox" id="genre-plataforma" name="genre" value="plataforma">
+            <label for="genre-plataforma">Plataforma</label>
+          </div>
+          <div>
+            <input type="checkbox" id="genre-mundo-aberto" name="genre" value="mundo-aberto">
+            <label for="genre-mundo-aberto">Mundo Aberto</label>
+          </div>
+        </div> <div class="form-group"> <p>O que um jogo precisa para te chamar atenção? (Escreva ao menos 20 caracteres) </p>
+          <textarea id="resposta" name="resposta" rows="5" placeholder="Digite sua resposta aqui..." minlength="20"></textarea>
+        </div> <div class="form-group"> <button type="submit" id="submit" class="submit-button">
+            Enviar
+          </button>
+        </div> </form> </div> </body>
 </html>
