@@ -1,9 +1,7 @@
 # Projeto Formulário Gamer
 
-<<<<<<< HEAD
 Projeto de um formulário para internet para disciplina Marcação e Layout para Web
 
-=======
 ## Descrição
 
 Este projeto consiste na criação de um formulário web interativo como parte da avaliação da disciplina Marcação e Layout para Web. O projeto deve respeitar os requisitos da [Atividade do FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form) Sendo um website simular ao [exemplo](https://survey-form.freecodecamp.rocks/).
@@ -54,4 +52,3 @@ https://www.linkedin.com/in/jvfontes/
 ---
 
 *Projeto desenvolvido para a disciplina Marcação e Layout para Web do curso Tecnologia em Sistemas Para Internet. Instituto Federal de São Paulo - Campus São João da Boa Vista*
->>>>>>> acbfa497a81b757114b0c1bb61be2b283e5c7e8e
