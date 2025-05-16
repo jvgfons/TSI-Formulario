@@ -10,6 +10,8 @@ Este projeto consiste na criação de um formulário web interativo como parte d
 
 O formulário tem como objetivo coletar informações sobre as preferências de jogos dos usuários, abrangendo dados pessoais básicos, escolhas de plataformas, gêneros e horários preferidos para jogar.
 
+Você pode ver o projeto através do GitHub Pages por este [link](https://jvgfons.github.io/TSI-Formulario/).
+
 
 ## Tecnologias Utilizadas
 
@@ -41,6 +43,7 @@ O formulário inclui os seguintes campos e seções:
 
 * **Imagem de Fundo:** A imagem utilizada no plano de fundo da página foi obtida do [Freepik](https://www.freepik.com).
 * **Logo do Título ("Pesquisa Games"):** A imagem utilizada como título principal do formulário foi criada utilizando a plataforma [Canva](https://www.canva.com).
+**Icone da aba:** O icone da aba foi criado por IA utilizando a plataforma [Canva](https://www.canva.com)
 
 ## Autor
 
