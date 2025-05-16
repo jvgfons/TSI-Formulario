@@ -6,7 +6,7 @@ Projeto de um formulário para internet para disciplina Marcação e Layout para
 =======
 ## Descrição
 
-Este projeto consiste na criação de um formulário web interativo como parte da avaliação da disciplina Marcação e Layout para Web. O projeto deve respeitar os requisitos da [Atividade do FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form) Sendo um website simular ao [exemplo](https://survey-form.freecodecamp.rocks/).gitr
+Este projeto consiste na criação de um formulário web interativo como parte da avaliação da disciplina Marcação e Layout para Web. O projeto deve respeitar os requisitos da [Atividade do FreeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form) Sendo um website simular ao [exemplo](https://survey-form.freecodecamp.rocks/).
 
 O formulário tem como objetivo coletar informações sobre as preferências de jogos dos usuários, abrangendo dados pessoais básicos, escolhas de plataformas, gêneros e horários preferidos para jogar.
 
